@@ -1,12 +1,30 @@
 #big1{
     background-color: #FFCD9E;
-    height:70vh;
+    height:66vh;
       
 }
 #big2-small1,#big2-small2, #big1-small1, #big1-small2{
     width:50vw;
     justify-content:center;
     
+}
+
+@keyframes blink{
+    0%{background-color: red;}
+    25%{opacity: .5;}
+    50%{background-color: blue;}
+    100%{opacity: 1;}
+    }
+
+marquee{
+    background-color: blanchedalmond;
+    display:block;
+    height:4vh;
+    
+}
+
+button{
+    animation: blink 2s linear infinite
 }
 
 #big1-small1{
