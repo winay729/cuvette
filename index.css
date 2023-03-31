@@ -5,7 +5,7 @@
 }
 #big2-small1,#big2-small2, #big1-small1, #big1-small2{
     width:50vw;
-    
+    justify-content:center;
     
 }
 
@@ -80,6 +80,6 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
-#big-small2 {
-    justify-content: right;
+#big2-small2 {
+    text-align: right;
 }
